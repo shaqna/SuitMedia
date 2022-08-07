@@ -38,10 +38,10 @@ class GuestAdapter : PagingDataAdapter<User, GuestAdapter.ViewHolder>(
             Log.d("MyItem", item.toString())
             with(binding) {
                 val name = "${item.firstName} ${item.lastName}"
-                tvTitle.text = name
+                tvName.text = name
                 Glide.with(itemView.context)
                     .load(item.avatar)
-                    .into(imageEvent)
+                    .into(imgProfile)
 
                 root.setOnClickListener {
                     onUserClickListener?.invoke(item.firstName)
