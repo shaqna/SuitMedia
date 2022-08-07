@@ -6,6 +6,7 @@ SuitMediaMobile
 ## Techstack
 
 - Kotlin
+- Room
 - Koin
 - Flow
 - Retrofit
