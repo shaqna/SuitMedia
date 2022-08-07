@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SuitMediaMobile" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_orange</item>
+        <item name="colorPrimaryVariant">@color/secondary_orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="Theme.SuitMediaMobile.ActionBar" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:paddingStart">@dimen/range_32</item>
+        <item name="android:paddingEnd">@dimen/range_32</item>
+    </style>
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusBottomEnd">@dimen/range_8</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/range_8</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/range_8</item>
+        <item name="boxCornerRadiusTopStart">@dimen/range_8</item>
+        <item name="boxStrokeColor">@color/primary_orange</item>
+        <item name="android:textColorHint">@color/default_grey</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+    <style name="ButtonStyle16" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">100dp</item>
+        <item name="backgroundColor">@color/primary_orange</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/size_16</item>
+        <item name="android:paddingTop">@dimen/range_12</item>
+        <item name="android:paddingBottom">@dimen/range_12</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle18" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">100dp</item>
+        <item name="backgroundColor">@color/primary_orange</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/size_18</item>
+        <item name="android:paddingTop">@dimen/range_12</item>
+        <item name="android:paddingBottom">@dimen/range_12</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

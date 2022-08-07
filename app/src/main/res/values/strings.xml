@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SuitMedia Mobile</string>
+    <string name="cd_background">background</string>
+    <string name="welcome">Welcome</string>
+    <string name="app_description">This is app for suitmedia mobile developer test</string>
+    <string name="type_name_here">Type name here</string>
+    <string name="next">Next</string>
+    <string name="check">Check</string>
+    <string name="suitmedia_copyright">Copyright © 2020 Suitmedia All Rights Reserved.</string>
+    <string name="type_text_palindrome">Type text palindrome</string>
+    <string name="choose_event">Choose Event</string>
+    <string name="choose_guest">Choose Guest</string>
+    <string name="cd_image_suitmedia">Image SuitMedia</string>
+    <string name="nama">Nama!</string>
+    <string name="hallo">Hallo,</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cd_back_button">Back Button</string>
+    <string name="events">Events</string>
+    <string name="cd_map_view">Map View</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_image_events">Image Events</string>
+    <string name="cardview_title">CardView Title</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="date_dummy">15 Jan 2021</string>
+    <string name="time_dummy">9.00 AM</string>
+    <string name="guests">Guests</string>
+</resources>
